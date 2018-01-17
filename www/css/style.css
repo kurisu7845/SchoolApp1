@@ -1,0 +1,236 @@
+.Quizpage {
+    overflow-y: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+
+/***************
+*トップページ,メニューページ
+****************/
+
+#topclick {
+    margin-top: 25vh;
+    font-size: 10vw;
+}
+
+.title {
+    text-align: center;
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+    color: #0fc1ff;
+}
+
+.title h1 span {
+    font-size: 20vw;
+}
+
+.title p {
+    display: inline;
+    font-size: 5vw;
+    font-weight: 700;
+    padding: 1vh 2vw;
+    background-color: #759099;
+    color: #FFF;
+    border-radius: 5vw;
+}
+
+.start-btn {
+    padding: 1vh 20vw;
+}
+.menu {
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.MenuBtn {
+    margin: 0 auto;
+    width: 80vw;
+    border: solid;
+    border-width: 1vh;
+    border-color: #0fc1ff;
+    background-color: white;
+    font-size: 8vw;
+    color: #0fc1ff;
+    font-weight: 700;
+    border-radius: 40px;
+    padding: 3vh 0;
+}
+
+
+/***************
+*クイズページ
+****************/
+
+.next-btnP {
+    padding: 5vh 0;
+}
+
+.next-btn {
+    margin: 0 auto;
+    width: 50vw;
+    background-color: #0fc1ff;
+    font-size: 8vw;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 4vh 0;
+}
+
+.next-Qbtn {
+    padding: 10vh 0;
+}
+
+#next-Qbtn {
+    margin: 0 auto;
+    width: 50vw;
+    background-color: #0fc1ff;
+    font-size: 8vw;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 5vh 0;
+}
+
+.text p {
+    font-size: 5vw;
+}
+
+.center {
+    margin: 0 auto;
+    font-size: 4vw;
+}
+
+.question {
+    position: relative;
+    padding: 1vh 2vw;
+    min-height: 50vh;
+    height: 40vh;
+}
+
+.choices {
+    min-height: 45vh;
+    text-align: center;
+    height: 45vh;
+}
+
+.QuizBtn {
+    text-align: center;
+    line-height: 20vh;
+    width: 45vw;
+    height: 20vh;
+    background-color: #0fc1ff;
+    margin: 1vh auto;
+    padding: 1vh 0;
+    font-size: 5vw;
+    border-radius: 20px;
+}
+
+#flag {
+    font-size: 10vw;
+}
+
+
+/***************
+*結果ページ
+****************/
+
+.result {
+    margin-top: 10vh;
+    min-height: 50vh;
+}
+
+.result-title {
+    text-align: center;
+}
+
+.detail {
+    text-align: center;
+    font-size: 10vw;
+}
+
+.back-btn {
+    padding: 1vh 20vw;
+}
+
+#return-btn {
+    background-color: #0fc1ff;
+    font-size: 5vw;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 5vh 0;
+}
+
+
+/***************
+*作成ページ
+****************/
+
+.color-dialog {
+    width: 40vw;
+    height: 20vh;
+}
+
+#image1 {
+    text-align: center;
+}
+
+#image2 {
+    text-align: center;
+}
+
+#ResultImg {
+    margin: 10vh auto;
+    text-align: center;
+}
+
+
+/**************************************************************
+*作成クイズ解答ボタン mbutton1,mbutton2,mbutton3,mbutton4
+***************************************************************/
+
+.mbutton1 {
+    text-align: center;
+    line-height: 20vh;
+    width: 45vw;
+    height: 20vh;
+    background-color: ここにいれるよ;
+    margin: 1vh auto;
+    padding: 1vh 0;
+    font-size: 5vw;
+    border-radius: 20px;
+}
+
+.mbutton2 {
+    text-align: center;
+    line-height: 20vh;
+    width: 45vw;
+    height: 20vh;
+    background-color: ここにいれるよ;
+    margin: 1vh auto;
+    padding: 1vh 0;
+    font-size: 5vw;
+    border-radius: 20px;
+}
+
+.mbutton3 {
+    text-align: center;
+    line-height: 20vh;
+    width: 45vw;
+    height: 20vh;
+    background-color: ここにいれるよ;
+    margin: 1vh auto;
+    padding: 1vh 0;
+    font-size: 5vw;
+    border-radius: 20px;
+}
+
+.mbutton4 {
+    text-align: center;
+    line-height: 20vh;
+    width: 45vw;
+    height: 20vh;
+    background-color: ここにいれるよ;
+    margin: 1vh auto;
+    padding: 1vh 0;
+    font-size: 5vw;
+    border-radius: 20px;
+}

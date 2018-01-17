@@ -1,0 +1,26 @@
+<ons-page>
+    <div ng-controller="MquizCtrl as mquiz">
+        <ons-toolbar style="height:5vh;">
+            <div class="center">オリジナルクイズ</div>
+        </ons-toolbar>
+        <div class="text">
+            <p ng-show="QuestionText">{{mquiz.items.Questiontext}} </p>
+            <p class="answer" ng-show="CommentText"id="ResultImg"><img  src="maru.png"　width="70%" height="50%" alt=""></p>
+        </div>
+        <div class="choices">
+            <ons-row>
+                <ons-col width="50%" align="center" ng-repeat="choice in mquiz.items.Choices track by $index">
+                    <div class="choice">
+                        <ons-button ng-show="ChoiceButton" ng-class="ButtonColor($index)" ng-click="mquiz.getAnswer($index)"> {{choice}} </ons-button>
+                    </div>
+                </ons-col>
+            </ons-row>
+            <div class="next-btnP">
+                <ons-button ng-show="NextButton" modifier="large" ng-click="mquiz.next()" class="next-btn"> 次へ </ons-button>
+            </div>
+            <div class="next-btnP">
+                <ons-button ng-show="EndButton" modifier="large" ng-click="mquiz.end()" class="next-btn"> おわり </ons-button>
+            </div>
+        </div>
+    </div>
+</ons-page>
